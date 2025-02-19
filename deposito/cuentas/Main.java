@@ -11,7 +11,6 @@ public class Main {
         System.out.println("El saldo actual es"+ saldoActual );
 
         operativa_cuenta(cuenta1, 0);
-        System.out.println("Esto es una modificación para hacer commit and push");
 
     }
 
