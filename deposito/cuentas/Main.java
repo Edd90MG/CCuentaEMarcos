@@ -1,7 +1,15 @@
 package cuentas;
 
+/**
+ * Esta clase es un ejemplo de uso de la cuenta bancaria.
+ * @author Edu
+ * @version 1.0
+ */
 public class Main {
 
+	/**
+	 * @param args argumento principal del main
+	 */
     public static void main(String[] args) {
         CCuenta cuenta1;
         double saldoActual;
@@ -11,6 +19,7 @@ public class Main {
         System.out.println("El saldo actual es"+ saldoActual );
 
         operativa_cuenta(cuenta1, 0);
+        System.out.println("Esto es una modificación para hacer commit and push");
 
     }
 
